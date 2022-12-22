@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".RegisterActivity">
+    
+            <ImageView
+                android:id="@+id/logo_login"
+                android:layout_width="218dp"
+                android:layout_height="101dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.497"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.138"
+                app:srcCompat="@drawable/labelle_pink" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="@+id/logo_login"
+                app:layout_constraintHorizontal_bias="0.495"
+                app:layout_constraintStart_toStartOf="@+id/logo_login"
+                app:layout_constraintTop_toBottomOf="@+id/logo_login"
+                app:layout_constraintVertical_bias="0.0"
+                app:srcCompat="@drawable/hi_reg" />
+
+            <TextView
+                android:id="@+id/yuk_gabung"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_bold"
+                android:text="Yuk, gabung dengan Labelle!"
+                android:textColor="@color/black"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="@+id/imageView3"
+                app:layout_constraintStart_toStartOf="@+id/imageView3"
+                app:layout_constraintTop_toBottomOf="@+id/imageView3"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <EditText
+                android:id="@+id/usn_login"
+                android:layout_width="327dp"
+                android:layout_height="48dp"
+                android:ems="10"
+                android:fontFamily="@font/nunito_regular"
+                android:inputType="textPersonName"
+                android:text="Nama"
+                android:textColor="#6D6D6D"
+                android:textSize="13sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.511"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/yuk_gabung"
+                app:layout_constraintVertical_bias="0.069" />
+
+            <EditText
+                android:id="@+id/password_login"
+                android:layout_width="327dp"
+                android:layout_height="48dp"
+                android:layout_marginTop="24dp"
+                android:ems="10"
+                android:fontFamily="@font/nunito_regular"
+                android:inputType="textPersonName"
+                android:text="Username"
+                android:textColor="#6D6D6D"
+                android:textSize="13sp"
+                app:layout_constraintEnd_toEndOf="@+id/usn_login"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/usn_login"
+                app:layout_constraintTop_toBottomOf="@+id/usn_login" />
+
+            <EditText
+                android:id="@+id/input_email"
+                android:layout_width="327dp"
+                android:layout_height="48dp"
+                android:layout_marginTop="24dp"
+                android:ems="10"
+                android:fontFamily="@font/nunito_regular"
+                android:inputType="textEmailAddress"
+                android:text="Email"
+                android:textColor="#6D6D6D"
+                android:textSize="13sp"
+                app:layout_constraintEnd_toEndOf="@+id/password_login"
+                app:layout_constraintStart_toStartOf="@+id/password_login"
+                app:layout_constraintTop_toBottomOf="@+id/password_login" />
+
+            <EditText
+                android:id="@+id/input_password"
+                android:layout_width="327dp"
+                android:layout_height="48dp"
+                android:layout_marginTop="24dp"
+                android:ems="10"
+                android:fontFamily="@font/nunito_regular"
+                android:inputType="textPersonName"
+                android:text="Password"
+                android:textColor="#6D6D6D"
+                android:textSize="13sp"
+                app:layout_constraintEnd_toEndOf="@+id/input_email"
+                app:layout_constraintStart_toStartOf="@+id/input_email"
+                app:layout_constraintTop_toBottomOf="@+id/input_email" />
+
+            <RadioButton
+                android:id="@+id/radioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:buttonTint="#F982AA"
+                android:fontFamily="@font/nunito_regular"
+                android:text="Perempuan"
+                android:textColor="#7A7977"
+                android:textSize="12sp"
+                app:layout_constraintEnd_toStartOf="@+id/radioButton2"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/jenis_kelamin"
+                app:layout_constraintTop_toBottomOf="@+id/jenis_kelamin" />
+
+            <RadioButton
+                android:id="@+id/radioButton2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:buttonTint="#F982AA"
+                android:fontFamily="@font/nunito_regular"
+                android:text="Laki-laki"
+                android:textColor="#7A7977"
+                android:textSize="12sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/jenis_kelamin" />
+
+            <TextView
+                android:id="@+id/jenis_kelamin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:fontFamily="@font/nunito_regular"
+                android:text="Jenis Kelamin"
+                android:textSize="13sp"
+                app:layout_constraintEnd_toEndOf="@+id/input_password"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/input_password"
+                app:layout_constraintTop_toBottomOf="@+id/input_password" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/button_login"
+                android:layout_width="329dp"
+                android:layout_height="36dp"
+                android:layout_marginTop="32dp"
+                android:background="@drawable/button_regist"
+                app:cornerRadius="5px"
+                app:layout_constraintEnd_toEndOf="@+id/input_password"
+                app:layout_constraintHorizontal_bias="0.459"
+                app:layout_constraintStart_toStartOf="@+id/input_password"
+                app:layout_constraintTop_toBottomOf="@+id/radioButton2"
+                tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+
+        
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
