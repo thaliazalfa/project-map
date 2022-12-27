@@ -1,12 +1,38 @@
 <resources>
-    <string name="app_name">project MAP</string>
-    <string name="title_activity_login2">LoginActivity2</string>
-    <string name="prompt_email">Email</string>
-    <string name="prompt_password">Password</string>
-    <string name="action_sign_in">Sign in or register</string>
-    <string name="action_sign_in_short">Sign in</string>
-    <string name="welcome">"Welcome !"</string>
-    <string name="invalid_username">Not a valid username</string>
-    <string name="invalid_password">Password must be >5 characters</string>
-    <string name="login_failed">"Login failed"</string>
+
+    <!-- Logo Apps -->
+    <string name="labelle_logo">"Labelle"</string>
+
+    <!-- Hype Product RecyclerView -->
+    <string name="nama">Nama</string>
+    <string name="ajakan">Yuk, gabung dengan Labelle!</string>
+    <string name="username">Username</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="wedok">Perempuan</string>
+    <string name="lanang">Laki-Laki</string>
+    <string name="jenis_kelamin">Jenis Kelamin</string>
+    <string name="belum_ada_akun">Belum memiliki akun?</string>
+    <string name="sudah_ada_akun">Sudah memiliki akun?</string>
+    <string name="login_sekarang">Masuk Sekarang</string>
+    <string name="daftar_sekarang"> Daftar Sekarang</string>
+
+    <!-- Homepage -->
+    <string name="hello">Hello, </string>
+    <string name="welcome">Welcome to Labelle</string>
+    <string name="find">Find product here…</string>
+    <string name="hype">hype products</string>
+    <string name="recommend">product recommendation</string>
+    <string name="arrivals">new arrivals</string>
+    <string name="articles">articles</string>
+
+    <!-- Hype Product RecyclerView -->
+    <string name="brand">BRAND</string>
+    <string name="name">Name</string>
+    <string name="ratingtxt">3.8</string>
+    <string name="jumlah">(123)</string>
+
+
+
+
 </resources>

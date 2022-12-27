@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".LoginActivity">
+    tools:context="com.example.projectmap.LoginActivity">
 
 
     <ImageView
@@ -35,7 +35,7 @@
         android:layout_height="36dp"
         android:layout_marginTop="96dp"
         android:background="@drawable/login_button"
-        app:cornerRadius="5px"
+        app:cornerRadius="5dp"
         app:layout_constraintEnd_toEndOf="@+id/password_login"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="@+id/password_login"
@@ -50,7 +50,7 @@
         android:fontFamily="@font/nunito_regular"
         android:inputType="textPersonName"
         android:minHeight="48dp"
-        android:text="Alamat Email / Username"
+        android:text="@string/username"
         android:textColor="#6D6D6D"
         android:textSize="13sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -67,8 +67,8 @@
         android:layout_marginTop="24dp"
         android:ems="10"
         android:fontFamily="@font/nunito_regular"
-        android:inputType="textPersonName"
-        android:text="Password"
+        android:inputType="textPassword"
+        android:text="@string/password"
         android:textColor="#6D6D6D"
         android:textSize="13sp"
         app:layout_constraintEnd_toEndOf="@+id/usn_login"
@@ -82,22 +82,21 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/nunito_regular"
-        android:text="Belum memiliki akun?"
+        android:text="@string/belum_ada_akun"
         android:textColor="@color/grey_login"
         android:textSize="12sp"
-        app:layout_constraintEnd_toStartOf="@+id/textView"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintEnd_toStartOf="@+id/txt_Move_To_SignUp"
         app:layout_constraintHorizontal_chainStyle="packed"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/textView" />
+        app:layout_constraintTop_toTopOf="@+id/txt_Move_To_SignUp" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/txt_Move_To_SignUp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="30dp"
         android:fontFamily="@font/nunito_bold"
-        android:text=" Daftar Sekarang"
+        android:text="@string/daftar_sekarang"
         android:textColor="@color/daftar_sekarang"
         android:textSize="12sp"
         app:layout_constraintBottom_toBottomOf="parent"

@@ -10,7 +10,82 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0d7410df-f82b-40ff-8159-52e1ce28007b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/discord.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/projectmap/API/RetrofitHelper.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/projectmap/API/UserApi.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/projectmap/API/Users.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/projectmap/HypeAdapter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/apieu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/mediheal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/skintific.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/star_cardview.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/bulet_bawah.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_search.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/lb.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/rectangle_46.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/sandk_reg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/star_pink.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/font/abhaya_libre_bold.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/hype_product_item.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.4/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.4/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.4/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/assetWizardSettings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/assetWizardSettings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/debug/res/mipmap-anydpi-v26/ic_button_categories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/debug/res/mipmap-anydpi-v26/ic_button_categories_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/debug/res/mipmap-hdpi/ic_button_categories.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/debug/res/mipmap-hdpi/ic_button_categories_foreground.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/debug/res/mipmap-hdpi/ic_button_categories_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/debug/res/mipmap-mdpi/ic_button_categories.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/debug/res/mipmap-mdpi/ic_button_categories_foreground.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/debug/res/mipmap-mdpi/ic_button_categories_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/debug/res/mipmap-xhdpi/ic_button_categories.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/debug/res/mipmap-xhdpi/ic_button_categories_foreground.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/debug/res/mipmap-xhdpi/ic_button_categories_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/debug/res/mipmap-xxhdpi/ic_button_categories.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/debug/res/mipmap-xxhdpi/ic_button_categories_foreground.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/debug/res/mipmap-xxhdpi/ic_button_categories_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/debug/res/mipmap-xxxhdpi/ic_button_categories.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/debug/res/mipmap-xxxhdpi/ic_button_categories_foreground.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/debug/res/mipmap-xxxhdpi/ic_button_categories_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/projectmap/LoginActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/projectmap/LoginActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/projectmap/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/projectmap/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/projectmap/ParentItem.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/projectmap/ParentItem.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/projectmap/RegisterActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/projectmap/RegisterActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/projectmap/SplashScreen.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/projectmap/SplashScreen.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-v24/brands.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-v24/categoriesss.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-v24/category.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/categoriesss.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/splash_screen.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/font/blackpearl_scriptdemo.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/font/blackpearl_serif.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/font/didot _lt_std_italic.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/font/robotoslab_black.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/font/robotoslab_bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/font/robotoslab_extrabold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/font/robotoslab_extralight.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/font/robotoslab_light.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/font/robotoslab_medium.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/font/robotoslab_regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/font/robotoslab_semibold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/font/robotoslab_thin.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/font/robotoslab_variablefont_wght.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_register.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_register.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/preloaded_fonts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/preloaded_fonts.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,8 +118,12 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin Data Class" />
         <option value="resourceFile" />
+        <option value="Class" />
+        <option value="Kotlin Data Class" />
+        <option value="Kotlin Interface" />
+        <option value="Kotlin Class" />
+        <option value="layoutResourceFile" />
       </list>
     </option>
   </component>
@@ -66,12 +145,15 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="cidr.known.project.marker" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable-v24" />
-    <property name="last_opened_file_path" value="D:/01. THALIA ZALFA/COOLYEAH/Semester3/labelle-project" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/drawable-v24" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\dhano\Documents\GitHub\project-map\app\src\main\res\drawable-v24" />
       <recent name="C:\Users\dhano\Documents\GitHub\projectMAP\app\src\main\res\drawable-v24" />
       <recent name="C:\Users\dhano\Documents\GitHub\projectMAP\app\src\main\res\drawable" />
     </key>
@@ -87,7 +169,7 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
       <module name="project_MAP.app.main" />
       <option name="DEPLOY" value="true" />
       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
@@ -168,5 +250,61 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/projectmap/MainActivity.kt</url>
+          <line>14</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/projectmap/MainActivity.kt</url>
+          <line>16</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/projectmap/MainActivity.kt</url>
+          <line>17</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/projectmap/MainActivity.kt</url>
+          <line>18</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/projectmap/MainActivity.kt</url>
+          <line>20</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/projectmap/MainActivity.kt</url>
+          <line>22</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/projectmap/MainActivity.kt</url>
+          <line>23</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/projectmap/MainActivity.kt</url>
+          <line>24</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/projectmap/MainActivity.kt</url>
+          <line>26</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/projectmap/MainActivity.kt</url>
+          <line>27</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
