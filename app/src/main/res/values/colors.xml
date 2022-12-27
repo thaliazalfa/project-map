@@ -15,5 +15,6 @@
     <color name="button_gender">#F982AA</color>
     <color name="background_login">#FFF4F8</color>
     <color name="grey_login">#918788</color>
+    <color name="title_homepage">#B22755</color>
 
 </resources>
