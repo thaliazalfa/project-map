@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_homepage"
+        android:title="@string/home"
+        android:icon="@drawable/ic_home_navbar"
+        />
+    <item
+        android:title="@string/add_review"
+        android:id="@+id/naavigation_add_review"
+        android:icon="@drawable/ic_baseline_add_navbar"/>
+</menu>

@@ -46,11 +46,12 @@ class RegisterActivity : AppCompatActivity() {
 
 
         btnRegister.setOnClickListener {
-            signIn(txtemail.text.toString(), txtpassword.text.toString())
+            signUp(txtemail.text.toString(), txtpassword.text.toString())
 
             val cekGenderRadioButton : Int = btnGender!!.checkedRadioButtonId
             val gender = findViewById<RadioButton>(cekGenderRadioButton)
-
+            val intent = Intent(this, MainActivity::class.java)
+            startActivity(intent)
 
 
         }
@@ -61,7 +62,7 @@ class RegisterActivity : AppCompatActivity() {
         }
     }
 
-    private fun signIn(email: String, password: String) {
+    private fun signUp(email: String, password: String) {
         CoroutineScope(Dispatchers.IO).launch {
 
             val data = Users(email = email, password = password)

@@ -32,7 +32,15 @@
     <string name="ratingtxt">3.8</string>
     <string name="jumlah">(123)</string>
 
+    <!-- navbar -->
+    <string name="home">Home</string>
+    <string name="add_review">Add</string>
 
+    <!-- review rating -->
+    <string name="write_review">Write Review</string>
+    <string name="overall_rating">Your Overall Rating?</string>
+    <string name="write_a_review">Write a Review</string>
+    <string name="how_long">How long have you used this product?</string>
 
 
 </resources>
